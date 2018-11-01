@@ -13,13 +13,11 @@ For recent instruction please visit: https://twiki.cern.ch/twiki/bin/view/CMS/Mi
 ```
   voms-proxy-init --voms cms
 ```
-## Run on local file:
+## Run locally:
 ```
   cmsRun MetScanning/skim/python/skimMINIAOD.py
 ```
-## Run on AOD files:
-```
-  cmsRun MetScanning/skim/python/skimMINIAOD.py
+
 ```
 ## Run with crab
 In ``MetScanning/skim/crab/`` edit crab.py and adjust samples, JSON, and the EOS directory. 
