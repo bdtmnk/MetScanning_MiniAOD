@@ -7,6 +7,8 @@ For recent instruction please visit: https://twiki.cern.ch/twiki/bin/view/CMS/Mi
   cmsenv
   git cms-init  
   git clone https://github.com/didukhle/MetScanning_MiniAOD.git
+  mv MetScanning_MiniAOD MetScanning
+  cd MetScanning
   scram b -j9
   ```
   You might need to run the following command if you want to access files via XROOT:
